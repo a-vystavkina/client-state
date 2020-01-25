@@ -26,5 +26,4 @@ window.onload = function() {
     elClose.classList.remove('modal_active');
     document.cookie = 'popup=closed';         
   }
-
 )}
