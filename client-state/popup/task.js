@@ -13,7 +13,6 @@ let getCookie = (name) => {
 }
 
 window.onload = function() {    
-  document.cookie = 'popup=closed; Expires=Thu, 01 Jan 1970 00:00:00 GMT';  
   if(getCookie('popup') === 'closed') {        
     return false;   
   }
